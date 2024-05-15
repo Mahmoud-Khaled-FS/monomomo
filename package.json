@@ -1,0 +1,33 @@
+{
+  "name": "monomomo",
+  "description": "List of small packages for web development",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mahmoud-Khaled-FS/monomomo.git"
+  },
+  "keywords": [
+    "web",
+    "backend",
+    "frontend",
+    "helpers",
+    "utils",
+    "nodejs"
+  ],
+  "author": "Mahmoud Khaled",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mahmoud-Khaled-FS/monomomo/issues"
+  },
+  "homepage": "https://github.com/Mahmoud-Khaled-FS/monomomo#readme",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "tsx": "^4.10.2",
+    "typescript": "^5.4.5"
+  }
+}
